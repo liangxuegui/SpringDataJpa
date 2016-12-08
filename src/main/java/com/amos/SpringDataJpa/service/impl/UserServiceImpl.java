@@ -26,4 +26,7 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		return responsity.findOne(id);
 	}
+	public List<User> findAllUsersByage(Integer age) {
+		return responsity.findUsersByAge(age);
+	}
 }
