@@ -35,4 +35,8 @@ public class UserServiceTest {
 	public void testFindOne(){
 		System.out.println(userService.findById(1));
 	}
+	@Test
+	public void testFindByAge(){
+		System.out.println(userService.findAllUsersByage(22));
+	}
 }
